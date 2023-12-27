@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".sarawak_page"
+    android:background="@drawable/loginbckgdpage">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="261dp"
+        app:srcCompat="@drawable/sarawakpage" />
+
+    <TextView
+        android:id="@+id/sarawaktxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="50px"
+        android:fontFamily="@font/berkshire_swash"
+        android:paddingBottom="30px"
+        android:text="SARAWAK"
+        android:textSize="120px" />
+
+    <TextView
+        android:id="@+id/sarawaktxt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:fontFamily="@font/delius_swash_caps"
+        android:paddingBottom="30px"
+        android:text="Sarawak, a Malaysian state located on the island of Borneo, offers a diverse range of attractions and experiences that make it a compelling destination for travelers. Here are some reasons why you should consider visiting Sarawak:"
+        android:textSize="50px" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/sarawakfoodbtn"
+            android:layout_width="210dp"
+            android:layout_height="77dp"
+            android:paddingLeft="40px"
+            android:paddingRight="40px"
+            android:clickable="true"
+            android:onClick="clickImage"
+            app:srcCompat="@drawable/sarawakfoodbtn" />
+
+        <ImageView
+            android:id="@+id/sarawakplacesbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="77dp"
+            android:layout_weight="1"
+            android:paddingLeft="40px"
+            android:paddingRight="40px"
+            android:clickable="true"
+            android:onClick="clickImage"
+            app:srcCompat="@drawable/sarawakplacesbtn" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/sarawakcfbtn"
+            android:layout_width="210dp"
+            android:layout_height="77dp"
+            android:clickable="true"
+            android:onClick="clickImage"
+            android:paddingLeft="40px"
+            android:paddingRight="40px"
+            app:srcCompat="@drawable/sarawakcfbtn" />
+
+        <ImageView
+            android:id="@+id/srwcnbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="77dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="clickImage"
+            android:paddingLeft="40px"
+            android:paddingRight="40px"
+            app:srcCompat="@drawable/sarawakcabtn" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="70px">
+
+        <Button
+            android:id="@+id/srwbackbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="100px"
+            android:layout_marginRight="100px"
+            android:text="Back" />
+
+        <Button
+            android:id="@+id/srwhomebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="100px"
+            android:layout_marginRight="100px"
+            android:text="Home" />
+    </LinearLayout>
+
+
+</LinearLayout>

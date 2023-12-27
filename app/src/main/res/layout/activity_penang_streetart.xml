@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".penang_streetart">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/pgstreetarttxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/berkshire_swash"
+                android:paddingBottom="50px"
+                android:text="Penang Street Art"
+                android:textAlignment="center"
+                android:textSize="130px" />
+
+            <TextView
+                android:id="@+id/penangstreetarttxt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:fontFamily="@font/delius_swash_caps"
+                android:paddingBottom="50px"
+                android:text="
+Penang's street art and culture are vibrant and captivating aspects of the island's identity. The combination of historical heritage, artistic expression, and cultural diversity creates a unique atmosphere that draws visitors from around the world. Here's an overview of Penang's street art and culture:"
+                android:textSize="50px" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/pgstreetarttxt3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/berkshire_swash"
+                    android:paddingLeft="50px"
+                    android:paddingBottom="50px"
+                    android:text="Children on a Bicycle
+                     (Boy on a Bike)"
+                    android:textSize="80px" />
+
+                <ImageView
+                    android:id="@+id/pgboyonabike"
+                    android:layout_width="match_parent"
+                    android:layout_height="226dp"
+                    app:srcCompat="@drawable/pgoyonthebike" />
+
+                <TextView
+                    android:id="@+id/pgcoabtxt1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30px"
+                    android:fontFamily="@font/delius_swash_caps"
+                    android:paddingTop="20px"
+                    android:paddingBottom="50px"
+                    android:text="Created by Lithuanian artist Ernest Zacharevic, this mural depicts a young boy balancing on a bicycle. It's one of the earliest and most iconic street art pieces in Penang."
+                    android:textSize="50px" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/pgsatxt2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/berkshire_swash"
+                        android:paddingLeft="50px"
+                        android:paddingBottom="50px"
+                        android:text="Reaching Up (Boy on Chair)"
+                        android:textSize="80px" />
+
+                    <ImageView
+                        android:id="@+id/pgsa2"
+                        android:layout_width="match_parent"
+                        android:layout_height="226dp"
+                        app:srcCompat="@drawable/pgsa2" />
+
+                    <TextView
+                        android:id="@+id/penangsatxt3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30px"
+                        android:fontFamily="@font/delius_swash_caps"
+                        android:paddingTop="20px"
+                        android:paddingBottom="50px"
+                        android:text="This mural showcases a young boy reaching up for a painted hole on the wall, creating the illusion that he's trying to climb through."
+                        android:textSize="50px" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/pgsa4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/berkshire_swash"
+                        android:paddingLeft="50px"
+                        android:paddingBottom="50px"
+                        android:text="Brother and Sister on a Swing"
+                        android:textSize="80px" />
+
+                    <ImageView
+                        android:id="@+id/pgsa4pic"
+                        android:layout_width="match_parent"
+                        android:layout_height="226dp"
+                        app:srcCompat="@drawable/pgsa4" />
+
+                    <TextView
+                        android:id="@+id/penangsa4txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30px"
+                        android:fontFamily="@font/delius_swash_caps"
+                        android:paddingTop="20px"
+                        android:paddingBottom="50px"
+                        android:text="An endearing mural portraying two children on a swing, also by Ernest Zacharevic, capturing a playful moment."
+                        android:textSize="50px" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/pgsahomebtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100px"
+                    android:layout_marginRight="100px"
+                    android:layout_weight="1"
+                    android:text="Home" />
+
+                <Button
+                    android:id="@+id/pgsabackbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100px"
+                    android:layout_marginRight="100px"
+                    android:layout_weight="1"
+                    android:text="Explore more" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

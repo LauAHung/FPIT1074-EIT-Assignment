@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PenangFood">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/pgfoodtxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/berkshire_swash"
+                android:paddingBottom="50px"
+                android:text="Food Of Penang"
+                android:textAlignment="center"
+                android:textSize="130px" />
+
+            <TextView
+                android:id="@+id/penangtxt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:fontFamily="@font/delius_swash_caps"
+                android:paddingBottom="50px"
+                android:text="Penang is renowned for its diverse and delicious street food scene, offering a wide variety of dishes that showcase the island's cultural mix. Some of the most famous and must-try foods in Penang include:"
+                android:textSize="50px" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/pgfoodtxt3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/berkshire_swash"
+                    android:paddingLeft="50px"
+                    android:paddingBottom="50px"
+                    android:text="Asam Laksa"
+                    android:textSize="80px" />
+
+                <ImageView
+                    android:id="@+id/pglaksa"
+                    android:layout_width="match_parent"
+                    android:layout_height="226dp"
+                    app:srcCompat="@drawable/pglaksa" />
+
+                <TextView
+                    android:id="@+id/pglaksatxt1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30px"
+                    android:fontFamily="@font/delius_swash_caps"
+                    android:paddingTop="20px"
+                    android:paddingBottom="50px"
+                    android:text="A tangy and spicy noodle soup made with fish broth, tamarind, mackerel fish, and a mix of vegetables, garnished with herbs and pineapple."
+                    android:textSize="50px" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/pgckt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/berkshire_swash"
+                        android:paddingLeft="50px"
+                        android:paddingBottom="50px"
+                        android:text="Char Kuey Tiao"
+                        android:textSize="80px" />
+
+                    <ImageView
+                        android:id="@+id/pgcktpic"
+                        android:layout_width="match_parent"
+                        android:layout_height="226dp"
+                        app:srcCompat="@drawable/pgckt" />
+
+                    <TextView
+                        android:id="@+id/penangtxt3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30px"
+                        android:fontFamily="@font/delius_swash_caps"
+                        android:paddingTop="20px"
+                        android:paddingBottom="50px"
+                        android:text="Penang Char Kway Teow is a symphony of flavors, combining the smoky wok hei (breath of the wok) with the umami of seafood, the richness of eggs, the earthiness of Chinese sausage, and the kick of chili heat. The interplay of these flavors creates a harmonious and unforgettable taste."
+                        android:textSize="50px" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/pgcendol"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/berkshire_swash"
+                        android:paddingLeft="50px"
+                        android:paddingBottom="50px"
+                        android:text="Penang Cendol"
+                        android:textSize="80px" />
+
+                    <ImageView
+                        android:id="@+id/pgcendolpic"
+                        android:layout_width="match_parent"
+                        android:layout_height="226dp"
+                        app:srcCompat="@drawable/pgcendol" />
+
+                    <TextView
+                        android:id="@+id/penangcendoltxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30px"
+                        android:fontFamily="@font/delius_swash_caps"
+                        android:paddingTop="20px"
+                        android:paddingBottom="50px"
+                        android:text="Penang cendol is a sweet and refreshing dessert made with a variety of ingredients, including shaved ice, green rice flour jelly, coconut milk, palm sugar syrup (gula Melaka), and red beans. The combination of these flavors creates a harmonious balance of sweetness and creaminess."
+                        android:textSize="50px" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/pgfoodhomebtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100px"
+                    android:layout_marginRight="100px"
+                    android:layout_weight="1"
+                    android:text="Home" />
+
+                <Button
+                    android:id="@+id/pgfoodbackbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100px"
+                    android:layout_marginRight="100px"
+                    android:layout_weight="1"
+                    android:text="Explore more" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

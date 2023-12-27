@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".sarawak_cf">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/sarawaktxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/berkshire_swash"
+                android:paddingTop="50px"
+                android:paddingBottom="50px"
+                android:text="Cultural Festival Of SARAWAK"
+                android:textAlignment="center"
+                android:textSize="110px" />
+
+            <TextView
+                android:id="@+id/sarawaktxt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:fontFamily="@font/delius_swash_caps"
+                android:paddingBottom="50px"
+                android:text="From the rhythmic beats of traditional music to the intricate movements of ancient dances, Sarawak's festivals encapsulate the essence of its communities. These festivals are not only a celebration of heritage but also a means of fostering unity and understanding among the diverse groups that call Sarawak their home."
+                android:textSize="50px" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/srwfoodtxt3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/berkshire_swash"
+                    android:paddingLeft="50px"
+                    android:paddingBottom="50px"
+                    android:text="Rainforest World Music Festival"
+                    android:textSize="70px" />
+
+                <ImageView
+                    android:id="@+id/srwkolomee"
+                    android:layout_width="match_parent"
+                    android:layout_height="226dp"
+                    app:srcCompat="@drawable/rainforest" />
+
+                <TextView
+                    android:id="@+id/srwlaksatxt1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30px"
+                    android:fontFamily="@font/delius_swash_caps"
+                    android:paddingTop="20px"
+                    android:paddingBottom="50px"
+                    android:text="During the festival, attendees can enjoy a diverse range of musical genres and cultural performances from various parts of the world. Musicians and artists gather to showcase their traditional instruments, songs, and dances. The event not only highlights the rich musical heritage of Sarawak but also serves as a platform for cultural exchange and appreciation."
+                    android:textSize="50px" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/srwfood"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/berkshire_swash"
+                        android:paddingLeft="50px"
+                        android:paddingBottom="50px"
+                        android:text="Gawai Dayak Festival"
+                        android:textSize="80px" />
+
+                    <ImageView
+                        android:id="@+id/pgcktpic"
+                        android:layout_width="match_parent"
+                        android:layout_height="226dp"
+                        app:srcCompat="@drawable/gawai" />
+
+                    <TextView
+                        android:id="@+id/srwtxt3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30px"
+                        android:fontFamily="@font/delius_swash_caps"
+                        android:paddingTop="20px"
+                        android:paddingBottom="50px"
+                        android:text="Gawai Dayak is a significant cultural festival celebrated by the Dayak community in the Malaysian state of Sarawak, particularly by the Ibans and Bidayuhs. The festival is a harvest and thanksgiving celebration that holds deep cultural and spiritual significance. Gawai Dayak showcases the rich heritage, traditions, and unity of the Dayak people, highlighting their connection to the land, nature, and their ancestral spirits."
+                        android:textSize="50px" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/srwfood_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/berkshire_swash"
+                        android:paddingLeft="50px"
+                        android:paddingBottom="50px"
+                        android:text="Harvest and Thanksgiving Festivals"
+                        android:textSize="70px" />
+
+                    <ImageView
+                        android:id="@+id/pgcendolpic"
+                        android:layout_width="match_parent"
+                        android:layout_height="226dp"
+                        app:srcCompat="@drawable/harvest" />
+
+                    <TextView
+                        android:id="@+id/penangcendoltxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30px"
+                        android:fontFamily="@font/delius_swash_caps"
+                        android:paddingTop="20px"
+                        android:paddingBottom="50px"
+                        android:text="Various indigenous communities in Sarawak, such as the Bidayuh and Orang Ulu, have their own harvest and thanksgiving festivals, which often include traditional ceremonies and cultural displays."
+                        android:textSize="50px" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/pgfoodhomebtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100px"
+                    android:layout_marginRight="100px"
+                    android:layout_weight="1"
+                    android:text="Home" />
+
+                <Button
+                    android:id="@+id/pgfoodbackbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100px"
+                    android:layout_marginRight="100px"
+                    android:layout_weight="1"
+                    android:text="Explore more" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

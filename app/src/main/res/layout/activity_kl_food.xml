@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".kl_food">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/pgfoodtxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/berkshire_swash"
+                android:paddingBottom="50px"
+                android:text="Food Of KUALA LUMPUR"
+                android:textAlignment="center"
+                android:textSize="130px" />
+
+            <TextView
+                android:id="@+id/penangtxt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:fontFamily="@font/delius_swash_caps"
+                android:paddingBottom="50px"
+                android:text="Kuala Lumpur, the capital city of Malaysia, is a culinary paradise that offers a wide variety of flavors and dishes influenced by the country's diverse cultures. From street food stalls to upscale restaurants, Kuala Lumpur has something to satisfy every palate. Here are some must-try foods in Kuala Lumpur:"
+                android:textSize="50px" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/pgfoodtxt3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/berkshire_swash"
+                    android:paddingLeft="50px"
+                    android:paddingBottom="50px"
+                    android:text="Banana Leaf Rice"
+                    android:textSize="80px" />
+
+                <ImageView
+                    android:id="@+id/pglaksa"
+                    android:layout_width="match_parent"
+                    android:layout_height="226dp"
+                    app:srcCompat="@drawable/bananaleaf" />
+
+                <TextView
+                    android:id="@+id/pglaksatxt1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30px"
+                    android:fontFamily="@font/delius_swash_caps"
+                    android:paddingTop="20px"
+                    android:paddingBottom="50px"
+                    android:text="A South Indian-inspired dish, Banana Leaf Rice consists of rice served on a banana leaf with an assortment of vegetable dishes, curries, pickles, and papadums. It's often enjoyed with your hands."
+                    android:textSize="50px" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/pgckt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/berkshire_swash"
+                        android:paddingLeft="50px"
+                        android:paddingBottom="50px"
+                        android:text="Bak Kut Teh"
+                        android:textSize="80px" />
+
+                    <ImageView
+                        android:id="@+id/pgcktpic"
+                        android:layout_width="match_parent"
+                        android:layout_height="226dp"
+                        app:srcCompat="@drawable/bakkuteh" />
+
+                    <TextView
+                        android:id="@+id/penangtxt3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30px"
+                        android:fontFamily="@font/delius_swash_caps"
+                        android:paddingTop="20px"
+                        android:paddingBottom="50px"
+                        android:text="A Chinese-influenced dish, Bak Kut Teh is a herbal soup with tender pork ribs, simmered with a mix of herbs and spices. It's often served with steamed rice and side dishes."
+                        android:textSize="50px" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/pgcendol"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/berkshire_swash"
+                        android:paddingLeft="50px"
+                        android:paddingBottom="50px"
+                        android:text="Nasi Lemak"
+                        android:textSize="80px" />
+
+                    <ImageView
+                        android:id="@+id/pgcendolpic"
+                        android:layout_width="match_parent"
+                        android:layout_height="226dp"
+                        app:srcCompat="@drawable/nasilemak" />
+
+                    <TextView
+                        android:id="@+id/penangcendoltxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30px"
+                        android:fontFamily="@font/delius_swash_caps"
+                        android:paddingTop="20px"
+                        android:paddingBottom="50px"
+                        android:text="Considered Malaysia's national dish, Nasi Lemak is fragrant coconut rice served with a variety of accompaniments such as spicy sambal, crispy fried chicken, hard-boiled or fried egg, anchovies, peanuts, and cucumber slices."
+                        android:textSize="50px" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/pgfoodhomebtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100px"
+                    android:layout_marginRight="100px"
+                    android:layout_weight="1"
+                    android:text="Home" />
+
+                <Button
+                    android:id="@+id/pgfoodbackbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100px"
+                    android:layout_marginRight="100px"
+                    android:layout_weight="1"
+                    android:text="Explore more" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

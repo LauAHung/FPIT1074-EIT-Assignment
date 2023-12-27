@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".display_feedback"
+    android:background="@drawable/loginbckgdpage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtFeedback8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textborder"
+                android:padding="8sp"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/txtFeedback1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textborder"
+                android:padding="8sp"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/txtFeedback9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textborder"
+                android:padding="8sp"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/txtFeedback2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textborder"
+                android:padding="8sp"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/txtFeedback10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textborder"
+                android:padding="8sp"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/txtFeedback6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textborder"
+                android:padding="8sp"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/txtFeedback5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textborder"
+                android:padding="8sp"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/txtFeedback3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textborder"
+                android:padding="8sp"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/txtFeedback7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textborder"
+                android:padding="8sp"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/txtFeedback4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textborder"
+                android:padding="8sp"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btndisplayback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Back" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

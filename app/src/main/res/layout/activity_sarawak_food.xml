@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".sarawak_food">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/sarawaktxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/berkshire_swash"
+                android:paddingBottom="50px"
+                android:text="Food Of SARAWAK"
+                android:textAlignment="center"
+                android:paddingTop="50px"
+                android:textSize="130px" />
+
+            <TextView
+                android:id="@+id/sarawaktxt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:fontFamily="@font/delius_swash_caps"
+                android:paddingBottom="50px"
+                android:text="Sarawak, a Malaysian state located on the island of Borneo, boasts a rich and diverse culinary heritage influenced by its multi-ethnic population, including Malay, Chinese, Indian, Iban, Bidayuh, and more. This blend of cultures has given rise to a unique and flavorful culinary landscape, characterized by a wide range of ingredients, cooking techniques, and dishes. Here are some iconic Sarawakian foods:"
+                android:textSize="50px" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/srwfoodtxt3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/berkshire_swash"
+                    android:paddingLeft="50px"
+                    android:paddingBottom="50px"
+                    android:text="Kolo Mee"
+                    android:textSize="80px" />
+
+                <ImageView
+                    android:id="@+id/srwkolomee"
+                    android:layout_width="match_parent"
+                    android:layout_height="226dp"
+                    app:srcCompat="@drawable/kolomee" />
+
+                <TextView
+                    android:id="@+id/srwlaksatxt1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30px"
+                    android:fontFamily="@font/delius_swash_caps"
+                    android:paddingTop="20px"
+                    android:paddingBottom="50px"
+                    android:text="Kolo Mee is a popular noodle dish in Sarawak. It consists of springy egg noodles tossed in a fragrant mixture of shallot oil, soy sauce, and sometimes lard. It can be served with various toppings like minced pork, char siu (barbecued pork), and crispy shallots."
+                    android:textSize="50px" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/srwfood"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/berkshire_swash"
+                        android:paddingLeft="50px"
+                        android:paddingBottom="50px"
+                        android:text="Umai"
+                        android:textSize="80px" />
+
+                    <ImageView
+                        android:id="@+id/pgcktpic"
+                        android:layout_width="match_parent"
+                        android:layout_height="226dp"
+                        app:srcCompat="@drawable/umai" />
+
+                    <TextView
+                        android:id="@+id/srwtxt3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30px"
+                        android:fontFamily="@font/delius_swash_caps"
+                        android:paddingTop="20px"
+                        android:paddingBottom="50px"
+                        android:text="Umai is a traditional Iban dish made from thinly sliced raw fish, often using fish like mackerel or seabass. The fish is marinated in a mixture of lime juice, chili peppers, shallots, and salt. It's a refreshing and flavorful dish that showcases the freshness of the ingredients."
+                        android:textSize="50px" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/srwfood_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/berkshire_swash"
+                        android:paddingLeft="50px"
+                        android:paddingBottom="50px"
+                        android:text="Manok Pansoh"
+                        android:textSize="80px" />
+
+                    <ImageView
+                        android:id="@+id/pgcendolpic"
+                        android:layout_width="match_parent"
+                        android:layout_height="226dp"
+                        app:srcCompat="@drawable/manokp" />
+
+                    <TextView
+                        android:id="@+id/penangcendoltxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30px"
+                        android:fontFamily="@font/delius_swash_caps"
+                        android:paddingTop="20px"
+                        android:paddingBottom="50px"
+                        android:text="This dish features chicken cooked with a mixture of spices and herbs, often including lemongrass, ginger, and tapioca leaves. The ingredients are wrapped in banana leaves and cooked over an open flame, infusing the chicken with a unique aroma and flavor."
+                        android:textSize="50px" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/pgfoodhomebtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100px"
+                    android:layout_marginRight="100px"
+                    android:layout_weight="1"
+                    android:text="Home" />
+
+                <Button
+                    android:id="@+id/pgfoodbackbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100px"
+                    android:layout_marginRight="100px"
+                    android:layout_weight="1"
+                    android:text="Explore more" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

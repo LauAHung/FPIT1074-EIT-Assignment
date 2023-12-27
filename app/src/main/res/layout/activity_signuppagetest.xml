@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/registerbtn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".signuppagetest">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/loginbckgdpage"
+        android:orientation="vertical"
+        tools:context=".signuppage">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="231dp"
+            app:srcCompat="@drawable/signup" />
+
+        <TextView
+            android:id="@+id/signuptxt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/berkshire_swash"
+            android:paddingLeft="50px"
+            android:text="Welcome~"
+            android:textSize="100px" />
+
+        <TextView
+            android:id="@+id/signuptxt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/berkshire_swash"
+            android:paddingLeft="50px"
+            android:text="A New Way To Travel"
+            android:textSize="100px" />
+
+        <TextView
+            android:id="@+id/signuptxt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/delius_swash_caps"
+            android:paddingLeft="55px"
+            android:paddingTop="20px"
+            android:paddingBottom="40px"
+            android:text="Sign Up To Continue" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="70px"
+                android:paddingTop="30px"
+                android:paddingRight="70px"
+                app:startIconDrawable="@drawable/baseline_person_24">
+
+                <EditText
+                    android:id="@+id/username_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Username" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="70px"
+                android:paddingTop="30px"
+                android:paddingRight="70px"
+                app:startIconDrawable="@drawable/baseline_drive_file_rename_outline_24">
+
+                <EditText
+                    android:id="@+id/edtemail_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="70px"
+                android:paddingTop="30px"
+                android:paddingRight="70px"
+                app:startIconDrawable="@drawable/baseline_lock_24"
+                app:endIconMode="password_toggle">
+
+                <EditText
+                    android:id="@+id/edtpass_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:inputType="textPassword"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="70px"
+                android:paddingTop="30px"
+                android:paddingRight="70px"
+                app:startIconDrawable="@drawable/baseline_lock_24"
+                app:endIconMode="password_toggle">
+
+                <EditText
+                    android:id="@+id/edtcpass_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Comfirm Password"
+                    android:inputType="textPassword"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/logintxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/delius_swash_caps"
+                android:paddingLeft="70px"
+                android:paddingTop="20px"
+                android:paddingRight="70px"
+                android:text="Already have an account? Login Here!"
+                android:textColor="#083CA6" />
+
+            <Button
+                android:id="@+id/signupbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100px"
+                android:insetLeft="250px"
+                android:insetRight="250px"
+                android:text="Sign Up" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".display_feedback"
+            android:exported="false" />
+        <activity
+            android:name=".feedback"
+            android:exported="false" />
+        <activity
+            android:name=".calendar"
+            android:exported="false" />
+        <activity
+            android:name=".first_menu"
+            android:exported="false" />
+        <activity
+            android:name=".sarawak_caving_adventures"
+            android:exported="false" />
+        <activity
+            android:name=".kl_shopping_extravaganza"
+            android:exported="false" />
+        <activity
+            android:name=".kl_modern_infrastructure"
+            android:exported="false" />
+        <activity
+            android:name=".kl_places"
+            android:exported="false" />
+        <activity
+            android:name=".kl_food"
+            android:exported="false" />
+        <activity
+            android:name=".malacca_cf"
+            android:exported="false" />
+        <activity
+            android:name=".malacca_museumsandgalleries"
+            android:exported="false" />
+        <activity
+            android:name=".malacca_places"
+            android:exported="false" />
+        <activity
+            android:name=".malacca_food"
+            android:exported="false" />
+        <activity
+            android:name=".signuppagetest"
+            android:exported="true" />
+        <activity
+            android:name=".signuppage"
+            android:exported="false" />
+        <activity
+            android:name=".sarawak_cf"
+            android:exported="false" />
+        <activity
+            android:name=".SarawakPlaces"
+            android:exported="false" />
+        <activity
+            android:name=".sarawak_food"
+            android:exported="false" />
+        <activity
+            android:name=".penang_festival_events"
+            android:exported="false" />
+        <activity
+            android:name=".penang_streetart"
+            android:exported="false" />
+        <activity
+            android:name=".penang_places"
+            android:exported="false" />
+        <activity
+            android:name=".kl_page"
+            android:exported="false" />
+        <activity
+            android:name=".malacca_page"
+            android:exported="false" />
+        <activity
+            android:name=".sarawak_page"
+            android:exported="false" />
+        <activity
+            android:name=".penangfood2"
+            android:exported="false" />
+        <activity
+            android:name=".PenangFood"
+            android:exported="false" />
+        <activity
+            android:name=".signup_page"
+            android:exported="false" />
+        <activity
+            android:name=".penang_page"
+            android:exported="false" />
+        <activity
+            android:name=".MenuPage"
+            android:exported="false" />
+        <activity
+            android:name=".Loginpage"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
